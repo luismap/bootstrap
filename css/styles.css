@@ -1,0 +1,23 @@
+:root {
+    --primary-color: #3A98B9;
+    --secondary-color: #FFF1DC;
+    --icon-color: #E8D5C4;
+    --text-color: #EEEEEE;
+    --text-color-secondary: #2C2561;
+    --accent-color: #FFC107;
+}
+
+#title {
+    background-color: var(--secondary-color);
+}
+
+h1 {
+    font-family: "Montseratt-black";
+    font-size: 3rem;
+    line-height: 1.5;
+    color:var(--text-color-secondary);
+}
+
+nav {
+    background-color: var(--primary-color);
+}
