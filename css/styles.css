@@ -5,19 +5,115 @@
     --text-color: #EEEEEE;
     --text-color-secondary: #2C2561;
     --accent-color: #FFC107;
+    --icon-color-secondary: #2C2561;
+}
+
+body {
+    font-family: 'Montserrat-black', sans-serif;
+    /* background-color: var(--primary-color); */
+
 }
 
 #title {
+    color: var(--text-color-secondary);
+    text-align: center;
+    align-content: center;
     background-color: var(--secondary-color);
+    padding: 0 18px;
 }
 
 h1 {
-    font-family: "Montseratt-black";
     font-size: 3rem;
     line-height: 1.5;
     color:var(--text-color-secondary);
 }
 
-nav {
+h2 {
+    font-size: 2.5rem;
+    line-height: 1.5;
+    padding: 12px;
+}
+
+.navbar {
     background-color: var(--primary-color);
+    color: var(--text-color);
+    padding: 2.5rem;
+}
+
+.navbar-nav {
+    color: var(--text-color);
+    padding: 2.5rem;
+}
+
+.nav-item {
+    color: var(--text-color);
+    padding: 0 18px;
+}
+
+.container-fluid {
+    background-clip: content-box;
+    padding: 0;
+}
+
+.material-icons {
+    vertical-align: bottom;
+    margin-right: 6px;
+}
+
+.main-image {
+    width: 30%;
+    padding: 72px 0;
+}
+
+/* features section */
+#features {
+    padding:72px 0;
+    background-color: var(--primary-color);
+}
+
+.features-items {
+    align-content: center;
+    text-align: center;
+    
+}
+.accent:hover {
+    color: var(--accent-color);
+}
+
+
+/* testimonial section */
+
+#testimonials {
+    background-color: var(--secondary-color);
+    text-align: center;
+}
+
+.profile {
+    width: 10%;
+    border-radius: 20%;
+}
+
+.carousel-item {
+    padding: 180px 180px;
+
+}
+
+.carousel-btn {
+    color: var(--icon-color-secondary);
+    font-size: 2rem;
+}
+.carousel-btn:hover {
+    color: var(--accent-color);
+}
+
+/* press */
+#press {
+    padding: 72px 0;
+    text-align: center;
+    background-color: var(--secondary-color);
+}
+
+.press-logo {
+    width: 10%;
+    margin: 20px 50px
 }
