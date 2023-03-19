@@ -19,7 +19,7 @@ body {
     text-align: center;
     align-content: center;
     background-color: var(--secondary-color);
-    padding: 0 18px;
+    padding: 30px 30px;
 }
 
 h1 {
@@ -61,14 +61,22 @@ h2 {
 }
 
 .main-image {
-    width: 30%;
+    width: 15%;
     padding: 72px 0;
+    position: absolute;
+    right: 10%;
+    transform: rotate(25deg);
+}
+
+.headline {
+    font-size: 5.5rem;
 }
 
 /* features section */
 #features {
     padding:72px 0;
     background-color: var(--primary-color);
+    position: relative;
 }
 
 .features-items {
