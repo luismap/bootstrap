@@ -14,14 +14,6 @@ body {
 
 }
 
-#title {
-    color: var(--text-color-secondary);
-    text-align: center;
-    align-content: center;
-    background-color: var(--secondary-color);
-    padding: 30px 30px;
-}
-
 h1 {
     font-size: 3rem;
     line-height: 1.5;
@@ -60,8 +52,16 @@ h2 {
     margin-right: 6px;
 }
 
+#title {
+    color: var(--text-color-secondary);
+    text-align: center;
+    align-content: center;
+    background-color: var(--secondary-color);
+    padding: 200px 30px;
+}
+
 .main-image {
-    width: 15%;
+    width: 18%;
     padding: 72px 0;
     position: absolute;
     right: 10%;
@@ -69,7 +69,20 @@ h2 {
 }
 
 .headline {
-    font-size: 5.5rem;
+    font-size: 3.5rem;
+}
+
+@media (max-width: 1000px) {
+
+    #title {
+        padding: 30px 30px;
+    }
+
+    .main-image {
+        position: static;
+        width: 20%;
+        transform: rotate(0);
+    }
 }
 
 /* features section */
@@ -145,4 +158,29 @@ h2 {
 }
 .pricing-col {
     text-align: center;
+}
+
+/* cta  */
+
+#cta {
+    background-color: var(--secondary-color);
+    text-align: center;
+    align-content: center;
+    padding: 70px 0;
+}
+
+h3 {
+    margin: 30px;
+}
+
+
+/* footer */
+#footer {
+    background-color: var(--primary-color);
+    text-align: center;
+    align-content: center;
+    padding: 70px;
+}
+.footer-icon {
+    margin: 6px;
 }
